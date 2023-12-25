@@ -91,6 +91,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.composer.hwc3-service.slsi \
     gralloc.exynos7904 \
+    libGrallocWrapper \
     libion_exynos
 
 # Health
