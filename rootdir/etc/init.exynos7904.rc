@@ -566,6 +566,9 @@ on fs
 on property:sys.boot_completed=1
     swapon_all /vendor/etc/fstab.enableswap
 
+    # Enable PowerHAL hint processing
+    setprop vendor.powerhal.init 1
+
 # Permission for flashlight control for HAL3.3
 # The Istor espresso board does not have the flash led h/w, So the below permission line are blocked.
 # If you want to test the flashlight in board which have the flash led h/w, Enable the below blocked lines.
